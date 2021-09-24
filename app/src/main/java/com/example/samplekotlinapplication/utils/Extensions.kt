@@ -10,6 +10,7 @@ import retrofit2.Response
 
 private val BASE_URL = "https://picsum.photos/"
 
+var token=""
 internal fun Context.showToast(mssg: Any) {
     Toast.makeText(this, mssg.toString(), Toast.LENGTH_SHORT).show()
 }
